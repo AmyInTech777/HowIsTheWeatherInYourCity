@@ -1,4 +1,4 @@
-/* Background */
+
 body {
     background: linear-gradient(to right, #ffe0f0, #f9c2db);
     font-family: "Roboto", sans-serif;
@@ -9,7 +9,7 @@ body {
     margin: 0;
   }
   
-  /* Weather App Container */
+  
   .weather-app {
     background: white;
     max-width: 600px;
