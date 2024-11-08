@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather In Your City</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+      <h1 class="current-city" id="city">City Name</h1>
+      <p class="current-details" id="current-date">Monday 16:00</p>
+    </header>
+
+    <main>
+      <form id="search-form" class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Enter a city" required>
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <div class="weather-info">
+        <div id="weather-icon" class="weather-icon">☁️</div> <!-- Placeholder icon -->
+        <div class="temperature-container">
+          <span class="current-temperature-value" id="temperature">9</span>
+          <span class="current-temperature-unit">°C</span>
+        </div>
+      </div>
+
+      <div class="weather-details">
+        <div id="description">Overcast Clouds</div>
+        <div id="wind-speed">Wind: 3.13 m/s</div>
+        <div id="humidity">Humidity: 86%</div>
+      </div>
+    </main>
+
+    <footer>
+      <span>This project was coded by Amanda, </span>
+      <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" class="github-link">on GitHub</a>, 
+      <span>and is </span>
+      <a href="https://vercel.com/YOUR_PROJECT_URL" target="_blank" class="vercel-link">hosted on Vercel</a>.
+    </footer>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
+
+   

@@ -1,0 +1,121 @@
+/* Background */
+body {
+    background: linear-gradient(to right, #ffe0f0, #f9c2db);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Weather App Container */
+  .weather-app {
+    background: white;
+    max-width: 600px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(200, 150, 220, 0.3);
+    text-align: center;
+  }
+  
+  /* Accent and Text Colors */
+  h1 {
+    color: #a64ca6;
+  }
+  
+  a {
+    color: #d36bce;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: #555;
+    font-size: 16px;
+    padding: 12px;
+    width: 75%;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .search-button {
+    background-color: #e86cb7;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #d455a6;
+  }
+  
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .weather-icon {
+    font-size: 40px;
+  }
+  
+  .temperature-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .current-temperature-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .current-temperature-unit {
+    color: #e86cb7;
+    font-size: 20px;
+    margin-left: 4px;
+  }
+  
+  
+  .weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: #531429;
+    font-size: 16px;
+  }
+  
+  
+  footer {
+    border-top: 1px solid #ffd6e7;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+  }
+  
+  footer span {
+    color: black;
+  }
+  
+  footer a {
+    color: #d36bce;
+  }
+  
+  footer a:hover {
+    color: #e86cb7;
+  }
+  
+ 
